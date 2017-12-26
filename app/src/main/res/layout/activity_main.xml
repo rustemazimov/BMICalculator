@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context="com.apps.romeo.bmicalculator.MainActivity">
+
+    <EditText
+        android:id="@+id/weight_edit_text"
+        android:layout_width="245dp"
+        android:layout_height="62dp"
+        android:layout_x="9dp"
+        android:layout_y="188dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="Weight   (in kilograms)" />
+
+    <EditText
+        android:id="@+id/height_edit_text"
+        android:layout_width="245dp"
+        android:layout_height="62dp"
+        android:layout_x="8dp"
+        android:layout_y="263dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="Height    (in santimeters)"/>
+
+    <Button
+        android:id="@+id/calculate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="92dp"
+        android:layout_y="336dp"
+        android:text="Calculate"
+        android:background="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/result_text_view"
+        android:layout_width="283dp"
+        android:layout_height="116dp"
+        android:layout_x="23dp"
+        android:layout_y="392dp"
+        android:text=""
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="296dp"
+        android:layout_height="167dp"
+        android:layout_x="37dp"
+        android:layout_y="9dp"
+        android:fontFamily="cursive"
+        android:text="BMI"
+        android:textColor="@android:color/white"
+        android:textSize="150sp" />
+</AbsoluteLayout>
